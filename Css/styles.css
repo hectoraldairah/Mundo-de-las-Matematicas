@@ -1,6 +1,5 @@
 body{
-
-
+	background: #F3F3F3
 
 }
 
@@ -8,7 +7,7 @@ body{
 header{
 width: 100%;
 height: 200px;
-background: #FFFFFF;
+background: #F3F3F3;
 }
 
 
@@ -131,10 +130,87 @@ nav li:hover > ul > li {
 .slider{
 	height: 400px;
 }
+/*END SLIDER STYLES*/
 
-.hola{
+/*QUOTE STYLES */
+
+.quote-container{
 	width: 100%;
 	height: 400px;
-	background: #DCE3EB;
+	background: #F3F3F3;
+	font-family: 'Farsan', cursive;
+
+}
+
+.img-albert{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	position: absolute;
+	left: 50px;
+	margin-top: 50px;
+	-webkit-box-shadow: 9px 50px 47px 1px rgba(0,0,0,0.29);
+	-moz-box-shadow: 9px 50px 47px 1px rgba(0,0,0,0.29);
+	box-shadow: 9px 50px 47px 1px rgba(0,0,0,0.29)
+
+}
+
+.text-quote{
+	position: absolute;
+	right: 150px;
+	margin-top: 60px;
+	width: 600px;
+	height: 200px;
+	display: block;
+	color: #989898;
+	font-size: 36px;
+	text-align: justify;
+}
+.text-quote > h4{
+	position: absolute;
+	left: 20px;
+	font-size: 20px;
+	font-family: 'Titillium Web', sans-serif;
+	margin-top: -10px;
+}
+ul[data-liffect="slideLeft"] li {
+    opacity: 0;
+    position: relative;
+    -webkit-animation: slideLeft 2000ms ease both;
+    -webkit-animation-play-state: paused;
+    -moz-animation: slideLeft 2000ms ease both;
+    -moz-animation-play-state: paused;
+    -o-animation: slideLeft 2000ms ease both;
+    -o-animation-play-state: paused;
+    animation: slideLeft 2000ms ease both;
+    animation-play-state: paused;
+    list-style: none;
+}
+
+ul[data-liffect="slideLeft"].play li {
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
+}
+
+@-webkit-keyframes slideLeft {
+    0% { opacity: 0; left: -30px; }
+    100% { opacity: 1; left: 0; }
+}
+
+@-moz-keyframes slideLeft {
+    0% { opacity: 0; left: -30px; }
+    100% { opacity: 1; left: 0; }
+}
+
+@-o-keyframes slideLeft {
+    0% { opacity: 0; left: -30px; }
+    100% { opacity: 1; left: 0; }
+}
+
+@keyframes slideLeft {
+    0% { opacity: 0; left: -30px; }
+    100% { opacity: 1; left: 0; }
 }
 
