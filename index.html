@@ -9,9 +9,10 @@
 	<!--GOOGLE FONTS-->
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
 	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
-	<link rel="stylesheet" type="text/css" href="Css/style-slideshow.css" />
-	<script type="text/javascript" src="js/jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="slider-engine1/style.css" />
+	<script type="text/javascript" src="slider-engine1/jquery.js"></script>
 	<!-- End WOWSlider.com HEAD section -->
+
 	
 	<title>Mundo de las Matematicas</title>
 </head>
@@ -67,28 +68,26 @@
 					</li>
 				</ul>
 			</nav>
-			<!-- SLIDESHOW -->
-			<section class="slider">
-				<div id="wowslider-container1">
-						<div class="ws_images">
-							<ul>
-								<li><a href="#"><img src="data1/images/1.png" alt="slider" title="Primera foto del Slider" id="wows1_0"/></a></li>
-								<li><img src="data1/images/2.jpg" alt="2" title="2" id="wows1_1"/></li>
-							</ul>
-						</div>
-						<div class="ws_script" style="position:absolute;left:-99%"><a href="#">lol</a></div>
-						<div class="ws_shadow"></div>
-				</div>	
-				<script type="text/javascript" src="js/wowslider.js"></script>
-				<script type="text/javascript" src="js/script.js"></script>
-			</section>
-			<!---------- END SLIDESHOW---------->
+			<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+			<div id="wowslider-container1">
+				<div class="ws_images"><ul>
+					<li><a href="http://wowslider.com"><img src="slider-data1/images/1.png" alt="wowslider" title="1" id="wows1_0"/></a></li>
+					<li><img src="slider-data1/images/2.jpg" alt="2" title="2" id="wows1_1"/></li>
+				</ul></div>
+			<div class="ws_bullets"><div>
+				<a href="#" title="1"><span><img src="slider-data1/tooltips/1.png" alt="1"/>1</span></a>
+				<a href="#" title="2"><span><img src="slider-data1/tooltips/2.jpg" alt="2"/>2</span></a>
+			</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">image slider</a> by WOWSlider.com v8.7</div>
+			<div class="ws_shadow"></div>
+			</div>	
+			<script type="text/javascript" src="slider-engine1/wowslider.js"></script>
+			<script type="text/javascript" src="slider-engine1/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+		
+
 			<section class="hola">
 		
 			</section>
-
-	
-
 
 			
 </body>
