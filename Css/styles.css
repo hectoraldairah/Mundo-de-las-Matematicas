@@ -17,8 +17,7 @@ background: #F3F3F3;
 
 nav{
 	position: relative;
-	width: 100%;
-	max-width: 100%;
+	width: auto;
 	background: #75263C;
 	z-index: 99;
   	display: block;
@@ -30,21 +29,25 @@ nav ul {
 	padding: 0;
 	text-align: center;
 	font-family: 'Titillium Web', sans-serif;
-	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 15px;
 	background: #75263C;
+	width: auto;
+
 
 }
 
 nav li {
 	line-height: 4em;
 	position: relative;
+	width: auto;
+
 }
 
 .menu ul {
 	position: absolute;
+	
 }
 
 nav a {
@@ -95,6 +98,7 @@ nav li:hover > ul > li {
 
 .menu > li > ul {
 	top: 100%;
+	width: auto;
 
 }
 
@@ -151,7 +155,7 @@ nav li:hover > ul > li {
 	font-size: 24px;
 
 }
-hr{
+.separator1{
 	max-width: 50px;
 	border-width: 2px;
 	border-color: #000;
@@ -200,8 +204,8 @@ hr{
 	position: relative;
 	margin-right: auto;
 	margin-left: auto;
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
 	border-radius: 20px 20px 20px 20px;
 	-moz-border-radius: 20px 20px 20px 20px;
 	-webkit-border-radius: 20px 20px 20px 20px;
@@ -225,7 +229,7 @@ hr{
 .selection-container2{
 	width: auto;
 	height: 400px;
-	margin-top: -100px;
+	margin-top: -150px;
 }
 .selection-container2 ul > li {
 	display: inline-block;
@@ -245,8 +249,8 @@ hr{
 	position: relative;
 	margin-right: auto;
 	margin-left: auto;
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
 	border-radius: 20px 20px 20px 20px;
 	-moz-border-radius: 20px 20px 20px 20px;
 	-webkit-border-radius: 20px 20px 20px 20px;
@@ -258,57 +262,67 @@ hr{
 	transition: all 4 second;
 	color: #fff;
 }
-/*QUOTE SECCTION*/
 
+
+
+/*QUOTE CONTAINER*/
 .quote-container{
+	position: relative;
 	width: 100%;
 	height: 400px;
-	background: rgba(117,38,60,1);
-background: -moz-linear-gradient(left, rgba(117,38,60,1) 0%, rgba(173,35,74,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(117,38,60,1)), color-stop(100%, rgba(173,35,74,1)));
-background: -webkit-linear-gradient(left, rgba(117,38,60,1) 0%, rgba(173,35,74,1) 100%);
-background: -o-linear-gradient(left, rgba(117,38,60,1) 0%, rgba(173,35,74,1) 100%);
-background: -ms-linear-gradient(left, rgba(117,38,60,1) 0%, rgba(173,35,74,1) 100%);
-background: linear-gradient(to right, rgba(117,38,60,1) 0%, rgba(173,35,74,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75263c', endColorstr='#ad234a', GradientType=1 );
-
-
+	font-family: 'Bad Script', cursive;
+	background: #F3F3F3;
 }
-
-.quote-container ul > li{
-	display: inline-block;
+.quote-container ul > li {
 	list-style: none;
-	position: relative;
-	margin-right: auto;
-	margin-left: auto;
-}
 
-.image-container  img{
-	position: relative;
-	margin-top: 50px;
+}
+.alberto{
 	width: 300px;
 	height: 300px;
-	margin-right: auto;
-	margin-left: auto;
-	list-style: none;
 	border-radius: 50%;
-	border: 3px solid #fff;
-	-webkit-box-shadow: -17px 38px 63px -5px rgba(0,0,0,0.55);
-	-moz-box-shadow: -17px 38px 63px -5px rgba(0,0,0,0.55);
-	box-shadow: -17px 38px 63px -5px rgba(0,0,0,0.55);
-
+	border-color: #fff;
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 50px;
+	-webkit-box-shadow: 9px 50px 47px 1px rgba(0,0,0,0.29);
+	-moz-box-shadow: 9px 50px 47px 1px rgba(0,0,0,0.29);
+	box-shadow: 9px 50px 47px 1px rgba(0,0,0,0.29)
 
 }
+
 .quote{
 	position: relative;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: auto;
-	margin-bottom: auto;
-	width: 200px;
-	height: 150px;
-	background: #000;
 }
+
+.text-quote{
+	position: absolute;
+	right: 150px;
+	margin-top: 60px;
+	width: 600px;
+	height: 200px;
+	display: block;
+	color: #989898;
+	font-size: 28px;
+	text-align: justify;
+}
+.text-quote > h4{
+	position: absolute;
+	left: 20px;
+	font-size: 15px;
+	font-family: 'Titillium Web', sans-serif;
+	margin-top: -10px;
+}
+
+.footer{
+	width: auto;
+	height: 200px;
+	background: #75263C;
+}
+
+
+
+
 
 
 
