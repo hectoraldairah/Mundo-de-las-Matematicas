@@ -140,9 +140,6 @@ nav li:hover > ul > li {
 	height: 500px;
 	background: #F3F3F3;
 	text-align: center;
-
-
-	
 }
 .unit-title{
 	display: block;
@@ -260,6 +257,57 @@ hr{
 	background: #75263C;
 	transition: all 4 second;
 	color: #fff;
+}
+/*QUOTE SECCTION*/
+
+.quote-container{
+	width: 100%;
+	height: 400px;
+	background: rgba(117,38,60,1);
+background: -moz-linear-gradient(left, rgba(117,38,60,1) 0%, rgba(173,35,74,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(117,38,60,1)), color-stop(100%, rgba(173,35,74,1)));
+background: -webkit-linear-gradient(left, rgba(117,38,60,1) 0%, rgba(173,35,74,1) 100%);
+background: -o-linear-gradient(left, rgba(117,38,60,1) 0%, rgba(173,35,74,1) 100%);
+background: -ms-linear-gradient(left, rgba(117,38,60,1) 0%, rgba(173,35,74,1) 100%);
+background: linear-gradient(to right, rgba(117,38,60,1) 0%, rgba(173,35,74,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75263c', endColorstr='#ad234a', GradientType=1 );
+
+
+}
+
+.quote-container ul > li{
+	display: inline-block;
+	list-style: none;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.image-container  img{
+	position: relative;
+	margin-top: 50px;
+	width: 300px;
+	height: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	list-style: none;
+	border-radius: 50%;
+	border: 3px solid #fff;
+	-webkit-box-shadow: -17px 38px 63px -5px rgba(0,0,0,0.55);
+	-moz-box-shadow: -17px 38px 63px -5px rgba(0,0,0,0.55);
+	box-shadow: -17px 38px 63px -5px rgba(0,0,0,0.55);
+
+
+}
+.quote{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 200px;
+	height: 150px;
+	background: #000;
 }
 
 
