@@ -186,10 +186,16 @@ hr{
 	position: relative;
 	margin-right: auto;
 	margin-left: auto;
+	padding: 2%;
 	}
 
 .image-block{
 	text-align: center;
+}
+.image-block :hover{
+	background: #75263C;
+	transition: all 4 second;
+	color: #fff;
 }
 
 .image-block img{
@@ -199,11 +205,10 @@ hr{
 	margin-left: auto;
 	width: 200px;
 	height: 200px;
-	padding: 15%;
-	border-radius: 66px 66px 66px 66px;
-	-moz-border-radius: 66px 66px 66px 66px;
-	-webkit-border-radius: 66px 66px 66px 66px;
-	border: 0px solid #000000;
+	border-radius: 20px 20px 20px 20px;
+	-moz-border-radius: 20px 20px 20px 20px;
+	-webkit-border-radius: 20px 20px 20px 20px;
+	border: 3px solid #75263C;
 
 
 }
@@ -231,6 +236,7 @@ hr{
 	position: relative;
 	margin-right: auto;
 	margin-left: auto;
+	padding: 2%;
 	}
 
 .image-block2{
@@ -244,11 +250,16 @@ hr{
 	margin-left: auto;
 	width: 200px;
 	height: 200px;
-	padding: 15%;
-	border-radius: 66px 66px 66px 66px;
-	-moz-border-radius: 66px 66px 66px 66px;
-	-webkit-border-radius: 66px 66px 66px 66px;
-	border: 0px solid #000000;
+	border-radius: 20px 20px 20px 20px;
+	-moz-border-radius: 20px 20px 20px 20px;
+	-webkit-border-radius: 20px 20px 20px 20px;
+	border: 3px solid #75263C;
+}
+
+.image-block2 :hover{
+	background: #75263C;
+	transition: all 4 second;
+	color: #fff;
 }
 
 
