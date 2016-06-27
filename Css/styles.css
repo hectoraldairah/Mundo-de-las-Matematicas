@@ -265,6 +265,7 @@ nav li:hover > ul > li {
 
 
 
+
 /*QUOTE CONTAINER*/
 .quote-container{
 	position: relative;
@@ -302,7 +303,7 @@ nav li:hover > ul > li {
 	width: 600px;
 	height: 200px;
 	display: block;
-	color: #989898;
+	color: #262626;
 	font-size: 28px;
 	text-align: justify;
 }
