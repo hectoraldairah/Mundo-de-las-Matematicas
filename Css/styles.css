@@ -263,66 +263,17 @@ nav li:hover > ul > li {
 	color: #fff;
 }
 
+.separator2{
+	border-width: 1px;
+	border-color: #000;
+	max-width: 300px;
+
+
+}
 
 
 
 /*QUOTE CONTAINER*/
-.quote-container{
-	position: relative;
-	width: 100%;
-	height: 400px;
-	font-family: 'Bad Script', cursive;
-	background: #F3F3F3;
-}
-.quote-container ul > li {
-	list-style: none;
-
-}
-.alberto{
-	width: 300px;
-	height: 300px;
-	border-radius: 50%;
-	border-color: #fff;
-	position: absolute;
-	margin-left: 50px;
-	margin-top: 50px;
-	-webkit-box-shadow: 9px 50px 47px 1px rgba(0,0,0,0.29);
-	-moz-box-shadow: 9px 50px 47px 1px rgba(0,0,0,0.29);
-	box-shadow: 9px 50px 47px 1px rgba(0,0,0,0.29)
-
-}
-
-.quote{
-	position: relative;
-}
-
-.text-quote{
-	position: absolute;
-	right: 150px;
-	margin-top: 60px;
-	width: 600px;
-	height: 200px;
-	display: block;
-	color: #262626;
-	font-size: 28px;
-	text-align: justify;
-}
-.text-quote > h4{
-	position: absolute;
-	left: 20px;
-	font-size: 15px;
-	font-family: 'Titillium Web', sans-serif;
-	margin-top: -10px;
-}
-
-.footer{
-	width: auto;
-	height: 200px;
-	background: #75263C;
-}
-
-
-
 
 
 

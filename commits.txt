@@ -1,0 +1,96 @@
+commit 3cf0d0577e256371ceac21706fefddc73bb3c722
+Author: Hector Aguilar <zukaeffect98@gmail.com>
+Date:   Mon Jun 27 03:42:20 2016 -0500
+
+    Se corrigio color
+
+commit 3e1b4c7525b831df33b55dd7b70fbfd585055bf7
+Author: Hector Aguilar <zukaeffect98@gmail.com>
+Date:   Mon Jun 27 03:31:38 2016 -0500
+
+    Nuevo footer
+
+commit f41e7fa0111b3c8992a388e71e87ea551b700131
+Author: Hector Aguilar <zukaeffect98@gmail.com>
+Date:   Mon Jun 27 00:55:42 2016 -0500
+
+    Se agrego foto
+
+commit 570f3f53095253b7f36200ac36d4290f2291d14c
+Author: Hector Aguilar <zukaeffect98@gmail.com>
+Date:   Sun Jun 26 23:01:23 2016 -0500
+
+    Se agregaron las unidades
+
+commit 8c738e363b9cbb53f0dcd475ae75637770e3d4f4
+Author: Hector Aguilar <zukaeffect98@gmail.com>
+Date:   Sun Jun 26 20:32:25 2016 -0500
+
+    Se agregaron animaciones
+
+commit d06812dd17556047014c6dd07e5166bdf5feac75
+Author: Hector Aguilar <zukaeffect98@gmail.com>
+Date:   Sun Jun 26 18:25:58 2016 -0500
+
+    Se quito quote y se corrigio items
+
+commit a16f8492a18569d508360414295e14ebaf05a023
+Author: Hector Aguilar <zukaeffect98@gmail.com>
+Date:   Sun Jun 26 04:39:19 2016 -0500
+
+    Se corrigieron los items
+
+commit 7edc0fa73e6bd8ffaed80a11546eb5e6b5a5af8e
+Author: Hector Aguilar <zukaeffect98@gmail.com>
+Date:   Sun Jun 26 04:29:04 2016 -0500
+
+    Se modificaron los items
+
+commit b1b74128680dd098700988241f2b800d7d2b986a
+Author: Hector Aguilar <zukaeffect98@gmail.com>
+Date:   Sun Jun 26 01:23:29 2016 -0500
+
+    Se agrego Items
+
+commit 5164a5f0221373d40b46d8295c0c92044981f8f6
+Author: Hector Aguilar <zukaeffect98@gmail.com>
+Date:   Sun Jun 26 00:29:07 2016 -0500
+
+    Presentacion añadida
+
+commit 51713257259aab561a0f7ef56a7228dc623e35b4
+Author: Hector Aguilar <zukaeffect98@gmail.com>
+Date:   Sat Jun 25 02:26:22 2016 -0500
+
+    Se agrego quote
+
+commit fb1a2c1d39e75aaeaaa4fa0fb1c1896958a37118
+Merge: 59b2015 06dbc2a
+Author: Hector Aguilar <zukaeffect98@gmail.com>
+Date:   Sat Jun 25 00:09:00 2016 -0500
+
+    Slider sin imagenes correspondientes
+
+commit 06dbc2a47154bc7775b893cb491265b4da2c6647
+Author: Hector Aguilar <zukaeffect98@gmail.com>
+Date:   Fri Jun 24 23:48:09 2016 -0500
+
+    Initial commit
+
+commit 59b20151104a28103682fbcf990169f650fbb303
+Author: Hector Aguilar <zukaeffect98@gmail.com>
+Date:   Fri Jun 24 22:19:26 2016 -0500
+
+    Menu corregido , slideshow corregido
+
+commit 5feed2747cfcd26bcea2d07cae302ad42cc48c3e
+Author: Hector Aguilar <zukaeffect98@gmail.com>
+Date:   Fri Jun 24 22:02:16 2016 -0500
+
+    Slider Correcto
+
+commit 0862e2e8e66ef2cf50c4975dbd760d9c2be1d490
+Author: Hector Aguilar <zukaeffect98@gmail.com>
+Date:   Fri Jun 24 20:54:30 2016 -0500
+
+    Pagina con Slider sin corregir
