@@ -1,3 +1,33 @@
+commit 4e88f18ac45487211c3eee3a808510309e4df095
+Author: Hector Aguilar <Hector Aguilar>
+Date:   Tue Jun 28 12:54:11 2016 -0500
+
+    Se modifico quote
+
+commit 7d49b00bf47ee73e674f7d44d7de717a50a27ee2
+Author: Hector Aguilar <Hector Aguilar>
+Date:   Tue Jun 28 12:29:12 2016 -0500
+
+    Se dieron estilos a quote
+
+commit 73a2fd26481ac9aaa6de57eaca0e1dcbb45bdc19
+Author: Hector Aguilar <Hector Aguilar>
+Date:   Tue Jun 28 12:13:18 2016 -0500
+
+    Se agregaron las animaciones al Quote
+
+commit 1c84eca6f990e2bddb727aacd258f23033365ff7
+Author: Hector Aguilar <Hector Aguilar>
+Date:   Tue Jun 28 11:55:46 2016 -0500
+
+    Se agrego Footer Adaptable
+
+commit 03562664cf9b9e494db5e750e7746168009f207d
+Author: Hector Aguilar <Hector Aguilar>
+Date:   Tue Jun 28 10:29:41 2016 -0500
+
+    Se quito Footer
+
 commit 3cf0d0577e256371ceac21706fefddc73bb3c722
 Author: Hector Aguilar <zukaeffect98@gmail.com>
 Date:   Mon Jun 27 03:42:20 2016 -0500

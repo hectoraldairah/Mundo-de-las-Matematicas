@@ -1,6 +1,9 @@
+*{
+	margin:0px 0px 0px 0px;
+
+}
 body{
 	background: #F3F3F3
-
 }
 
 
@@ -172,7 +175,13 @@ nav li:hover > ul > li {
 
 }
 .separator1{
-	max-width: 50px;
+	display: block;
+	position: relative;
+	margin:;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100px;
 	border-width: 2px;
 	border-color: #000;
 }
@@ -292,13 +301,7 @@ nav li:hover > ul > li {
 	color: #fff;
 }
 
-.separator2{
-	border-width: 1px;
-	border-color: #000;
-	max-width: 300px;
 
-
-}
 
 
 
@@ -414,6 +417,12 @@ nav li:hover > ul > li {
 	top: 20px;
 }
 
+}
+
+footer{
+	width: auto;
+	height: 200px;
+	background:#202020;
 }
 
 
