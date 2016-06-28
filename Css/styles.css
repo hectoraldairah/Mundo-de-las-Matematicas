@@ -302,9 +302,6 @@ nav li:hover > ul > li {
 }
 
 
-
-
-
 /*QUOTE CONTAINER*/
 
 .quote-container{
@@ -419,10 +416,19 @@ nav li:hover > ul > li {
 
 }
 
+/*END OF QUOTE*/
+
+/*START ABOUT SECCTION*/
+.about{
+	width: auto;
+	height: 800px;
+}
+
+/*END ABOUT SECCTION*/
 footer{
 	width: auto;
 	height: 200px;
-	background:#202020;
+	background:#232323;
 }
 
 
