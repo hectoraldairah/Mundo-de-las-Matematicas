@@ -538,19 +538,14 @@ figure > img{
 
 }
 
-
-
 }
 
-
-
-
-
-
-
-
 /*END ABOUT SECCTION*/
-
+footer{
+	width: 100%;
+	height: 200px;
+	background: #554C45;
+}
 
 
 
