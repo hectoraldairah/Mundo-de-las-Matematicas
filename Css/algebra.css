@@ -1,0 +1,110 @@
+*{
+	margin:0px 0px 0px 0px;
+
+}
+nav{
+	position: fixed;
+  	display: inline-block;
+  	background: #75263C;
+  	width: 100%;
+  	width: auto;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+}
+
+nav ul {
+	background: #75263C;
+	list-style: none;
+	padding: 0;
+	text-align: center;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 15px;
+	width: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: 0 auto;
+	
+}
+
+nav li {
+	line-height: 3em;
+	position: relative;
+	width: auto;
+
+}
+
+.menu ul {
+	position: absolute;
+	
+}
+
+nav a {
+	text-decoration: none;
+	color: #ddd;
+	display: block;
+	padding: 0 2em;
+	transition: .4s;
+	
+}
+
+.trigo{
+	padding: 0 3em;
+}
+.algebra{
+	padding: 0 3.5em;
+
+}
+nav a:hover{
+	background: #E80C2A;
+}
+
+
+/*PRIMER NIVEL*/
+
+.menu{
+	display: table;
+	text-align: center;
+
+
+}
+
+.menu > li {
+	float: left;
+
+
+}
+
+
+/*SEGUNDO NIVEL*/
+
+nav li li {
+	background: #75263C;
+	max-height: 0;
+	transition:  all .5s;
+	overflow: hidden;
+	width: 100%;
+
+}
+
+nav li:hover > ul > li {
+	max-height: 500px;
+	overflow: visible;
+}
+
+.menu > li > ul {
+	top: 100%;
+	width: 75%;
+	right: 0;
+	left: 0;
+}
+.first{
+	font-size: 14px;
+}
+
+@media (max-width: 1024px){
+	nav a {
+		padding: 0 1em;
+	}
+}
