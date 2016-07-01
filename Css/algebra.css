@@ -108,3 +108,50 @@ nav li:hover > ul > li {
 		padding: 0 1em;
 	}
 }
+
+
+/*TITLE STYLES*/
+
+.title{
+	width: 100%;
+	height: 150px;
+}
+
+.title > h1{
+	display: inline-block;
+	position: relative;
+	top: 100px;
+	left: 5%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+}
+
+small{
+	display: inline-block;
+	position: relative;
+	top: 100px;
+	left: 6%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	color: #907F7B;
+}
+
+
+hr{
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	border-color:#75263C;
+	border-width: 1px;
+	color: #EEEEEE;
+}
+
+/*END TITLE*/
+
+/*IMAGE SECCTION*/
+.algebra-img{
+	width: 100%;
+	height: 500px;
+}
+
+
