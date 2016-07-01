@@ -1,9 +1,6 @@
 *{
 	margin:0px 0px 0px 0px;
-}
 
-body{
-	background: #F3F3F3;
 }
 nav{
 	position: fixed;
@@ -113,12 +110,12 @@ nav li:hover > ul > li {
 	}
 }
 
+
 /*TITLE STYLES*/
 
 .title{
 	width: 100%;
 	height: 150px;
-	
 }
 
 .title > h1{
@@ -137,7 +134,7 @@ small{
 	left: 6%;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 24px;
-	color: #907F7B;
+	color: #333333;
 }
 
 
@@ -154,15 +151,70 @@ hr{
 
 /*IMAGE SECCTION*/
 .algebra-img{
-	width: 100%;
+	position: relative;
+	width: auto;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin:0 auto;
 	height: 500px;
+
+}
+
+div > figure{
+	display: block;
+	position:absolute;
+	top: 10%;
+	left: 5%;
+
+}
+
+div > figure > img{
+	width: 40%;
+	height: 450px;
+	border: 1px solid #000;
+
+}
+
+.algebra-txt{
+	display:inline-block;
+	position:absolute;
+	right: 5%;
+	top:15%;
+	width: 50%;
+	min-width: 500px;
+	height: 300px;
+}
+.algebra-txt > h2 {
+	color: #000;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 28px;
+}
+
+.algebra-txt > p {
+	color: #333333;
+	text-align: justify;
+	font-size: 20px;
+}
+
+@media (max-width: 1024px) {
+	.algebra-txt{	
+	top:7%;
+	width: 50%;
+}
+	div > figure > img{
+	width: 40%;
+	height: 450px;
+	border: 1px solid #000;
+
 }
 
 
 
+}
 
-
-
+	
 
 
 
