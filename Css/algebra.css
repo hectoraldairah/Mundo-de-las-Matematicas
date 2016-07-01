@@ -11,6 +11,7 @@ nav{
 	right: 0;
 	left: 0;
 	margin: 0 auto;
+	z-index: 1;
 }
 
 nav ul {
@@ -133,7 +134,7 @@ small{
 	left: 6%;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 24px;
-	color: #907F7B;
+	color: #333333;
 }
 
 
@@ -150,8 +151,44 @@ hr{
 
 /*IMAGE SECCTION*/
 .algebra-img{
-	width: 100%;
+	position: relative;
+	width: auto;
 	height: 500px;
+
 }
 
+div > figure{
+	display: block;
+	position:absolute;
+	top: 10%;
+	left: 5%;
 
+}
+
+div > figure > img{
+	width: 600px;
+	height: 350px;
+	border: 1px solid #000;
+
+}
+
+.algebra-txt{
+	display:inline-block;
+	position:absolute;
+	right: 5%;
+	top:15%;
+	width: 500px;
+	height: 300px;
+
+}
+.algebra-txt > h2 {
+	color: #000;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 28px;
+}
+
+.algebra-txt > p {
+	color: #333333;
+	text-align: justify;
+	font-size: 18px;
+}
