@@ -217,7 +217,7 @@ div > figure > img{
 
 .algebra-temario{
 	position: relative;
-	margin-top: 10px;
+	margin-top: 4em;
 	width: 100%;
 	height: 100px;
 }
@@ -241,24 +241,35 @@ div > figure > img{
 /*++++++++++++++++++++++++++++++++++++++*/
 
 .selection-container{
-	position: relative;
-	width: 100%;
+	width: auto;
 	height: 500px;
-	
 }
-
 .selection-container ul > li {
-	position: absolute;
-	top: 20%;
+	display: inline-block;
+	list-style: none;
+	position: relative;
+	float: center;
+	margin-right: 5%;
+	margin-left: 5%;
+
+	}
+
+@media (max-width: 1024px) {
+	.selection-container ul > li {
 	display: inline-block;
 	list-style: none;
 	position: relative;
 	margin-right: auto;
 	margin-left: auto;
-	padding: 5%;
+	padding: 1%;
+	font-size: 15px;
 	}
-	.image-block{
+		
+	}	
+
+.image-block{
 	text-align: center;
+	
 }
 .image-block :hover{
 	background: #75263C;
@@ -271,11 +282,11 @@ div > figure > img{
 	position: relative;
 	margin-right: auto;
 	margin-left: auto;
-	width: 200px;
-	height: 200px;
-	border-radius: 20px 20px 20px 20px;
-	-moz-border-radius: 20px 20px 20px 20px;
-	-webkit-border-radius: 20px 20px 20px 20px;
+	width: 150px;
+	height: 150px;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
 	border: 5px solid #75263C;
 
 
@@ -329,7 +340,3 @@ div > figure > img{
 	transition: all 4 second;
 	color: #fff;
 }
-
-
-
-
