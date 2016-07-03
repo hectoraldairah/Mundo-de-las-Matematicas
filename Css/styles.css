@@ -442,7 +442,7 @@ nav li:hover > ul > li {
 .info-container{
 	display: block;
 	position: absolute;
-	width: 500px;
+	width: 50%;
 	height: 200px;
 	top: 200px;
 	left: 50px;
