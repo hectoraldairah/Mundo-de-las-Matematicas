@@ -306,7 +306,7 @@ transition: all .4s linear;
 	left: 5%;
 	right: 5%;
 	top: 310px;
-	font-size: 16px;
+	font-size: 10px;
 	width: 90%;
 	height:80px;
 	font-family: 'Titillium Web', sans-serif;
@@ -315,26 +315,26 @@ transition: all .4s linear;
 
 .title1{
 	position: absolute;
-	left: 2%;
+	left: 4%;
 	top: 5px;
 
 }
 .title2{
 	position: absolute;
-	left: 33%;
+	left: 30%;
 	top: 5px;
 
 }
 
 .title3{
 	position: absolute;
-	right:  33%;
+	right:  28%;
 	top: 5px;
 
 }
 .title4{
 	position: absolute;
-	right:  5%;
+	right:  -1%;
 	top: 5px;
 
 	
@@ -371,13 +371,13 @@ transition: all .4s linear;
 
 .title3{
 	position: absolute;
-	right:  33%;
+	right:  26%;
 	top: 200px;
 
 }
 .title4{
 	position: absolute;
-	right:  5%;
+	right:  -4%;
 	top: 200px;
 
 	

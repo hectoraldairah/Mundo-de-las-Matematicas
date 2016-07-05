@@ -75,7 +75,7 @@ nav a {
 	display: block;
 	padding: 0 2.45em;
 	transition: .4s;
-	border: 0.5px solid #000;
+	
 }
 
 nav a:hover{
@@ -89,8 +89,7 @@ nav a:hover{
 	background: #75263C;
 	display: table;
 	text-align: center;
-	border: 1px solid #000;
-
+	
 }
 
 .menu > li {
