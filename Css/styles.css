@@ -544,7 +544,20 @@ footer{
 	width: 100%;
 	height: 200px;
 	background: #554C45;
+
 }
+
+footer > p {
+	position: relative;
+	top: 100px;
+
+	text-align: center;
+	color: #fff;
+
+}
+
+
+
 
 
 
