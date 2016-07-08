@@ -166,16 +166,12 @@ hr{
 
 }
 
-div > figure{
-	display: block;
-	position:absolute;
-	top: 10%;
-	left: 5%;
-
-}
-
 div > figure > img{
-	width: 40%;
+	position: absolute;
+	left: 5%;
+	float: left;
+	top: 4em;
+	width: 39%;
 	height: 450px;
 	border: 1px solid #000;
 
@@ -208,7 +204,7 @@ div > figure > img{
 	width: 50%;
 }
 	div > figure > img{
-	width: 40%;
+	width: 38%;
 	height: 450px;
 	border: 1px solid #000;
 

@@ -17,8 +17,6 @@ nav{
 	z-index: 1;
 }
 
-
-
 nav ul {
 	background: #75263C;
 	list-style: none;
@@ -168,7 +166,6 @@ hr{
 
 }
 
-
 div > figure > img{
 	position: absolute;
 	left: 5%;
@@ -310,7 +307,7 @@ transition: all .4s linear;
 
 .title1{
 	position: absolute;
-	left: 4%;
+	left: -1%;
 	top: 5px;
 
 }
@@ -326,7 +323,7 @@ transition: all .4s linear;
 
 .title3{
 	position: absolute;
-	right:  0%;
+	right:  4%;
 	top: 5px;
 
 }
@@ -354,7 +351,7 @@ transition: all .4s linear;
 
 .title3{
 	position: absolute;
-	right:  0%;
+	right:  4%;
 	top: 5px;
 
 }
@@ -382,6 +379,30 @@ transition: all .4s linear;
 }
 
 /*******************************/
+
+picture > img{
+	position: relative;
+	float: right;
+	top: 40px;
+	margin: 10px;
+	padding: 10px;
+	   background-color: #ffffff; 
+   width: 200px; 
+   border: 1px solid #999999; 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/**************************/
 
 .quote-container{
 	display: block;
@@ -411,18 +432,19 @@ transition: all .4s linear;
 	position: absolute;
 	display: block;
 	right: 15%;
-	top: 80px;
-	width: 700px;	
+	width: 700px;
+
+
 }
 .text-container  ul > p {
 	font-size: 18px;
 	color: #fff;
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;	
 }
 
 .text-container > ul >li {
 	list-style: none;
-	margin-top: 150px;
+	margin-top: 30px;
 	font-family: 'Bad Script', cursive;
 	font-size: 32px;
 	text-align: justify;
@@ -459,7 +481,7 @@ transition: all .4s linear;
 	text-align: justify;
 	color: #F3F3F3;
 	position: relative;
-	margin-top: 150px;
+	margin-top: 40px;
 	right: -15%;
 
 
@@ -519,6 +541,8 @@ footer > p {
 	color: #fff;
 
 }
+
+
 
 
 
